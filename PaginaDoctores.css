@@ -1,0 +1,27 @@
+body {
+  background-color: whitesmoke;
+  font-size: 10px;
+  width: 100%;
+}
+#Busqueda-Profesional {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  margin-top: 4rem;
+}
+#Nombre {
+  width: 40rem;
+  border-radius: 10rem;
+}
+#Doctores {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 4rem;
+}
+#Nombre-Doctor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 2rem;
+}
