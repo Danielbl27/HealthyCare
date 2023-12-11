@@ -13,15 +13,32 @@ body {
   width: 40rem;
   border-radius: 10rem;
 }
-#Doctores {
+.Doctores {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  gap: 2rem;
   margin: 4rem;
 }
-#Nombre-Doctor {
+.Doctor {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-basis: 25%;
+  background-color: azure;
+  flex-direction: column;
+  border-color: rgba(171, 198, 162, 1);
+  border-width: 0.2rem;
+  border-style: groove;
+  text-align: center;
+}
+#Nombre-Doctor {
   font-size: 2rem;
+}
+.Descripcion {
+  font-size: 1.3rem;
+  padding: 1rem;
+}
+.imagen {
+  width: 20rem;
+  height: 20rem;
+  align-self: center;
 }

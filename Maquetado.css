@@ -59,11 +59,11 @@ body {
 #Logo {
   display: block;
   background-color: rgba(134, 189, 78, 1);
-  height: 15em;
-  width: 15em;
-  margin-top: 3rem;
+  height: 12rem;
+  width: 12rem;
+  margin-top: 2rem;
   align-self: center;
-  border-radius: 1.5rem;
+  border-radius: 1rem;
 }
 #Caja-Principal {
   display: flex;
