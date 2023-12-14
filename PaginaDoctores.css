@@ -1,0 +1,140 @@
+
+  nav {
+    background-color: whitesmoke;
+    /* Color de fondo de la barra de navegación */
+    color: #fff;
+    /* Color del texto */
+    padding: 1.5em;
+    /* Espaciado interno */
+  
+  }
+  #LogoNav{
+  
+  margin-left: 2rem;
+  
+  }
+  
+  /* Estilos de los enlaces en la barra de navegación */
+  nav a {
+    color: #fff;
+    /* Color del texto de los enlaces */
+    text-decoration: none;
+    /* Eliminar subrayado de los enlaces */
+    margin: 0 15px;
+    /* Margen entre enlaces */
+  }
+  
+  /*Personalizacion de la barra de navegacion*/
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #efefef;
+  }
+  li {
+    float: right;
+    font-size: 200%;
+  }
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-image: linear-gradient(whitesmoke, rgba(147, 197, 104, 1));
+  }
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #000000;
+  }
+  
+  /* Mostrar el menú desplegable al pasar el mouse sobre el enlace padre */
+  li.dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  #LogoNav {
+    position: absolute;
+    width: 94px;
+    height: 91px;
+    left: 0px;
+    top: 10px;
+  
+    background: url(image.png);
+    border-radius: 16px;
+  }
+  body {
+    background-color: whitesmoke;
+    font-size: 10px;
+    width: 100%;
+  }
+  #Busqueda-Profesional {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin-top: 4rem;
+  }
+  #Nombre {
+    width: 40rem;
+    border-radius: 10rem;
+  }
+  .Doctores {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+    margin: 4rem;
+  }
+  .Doctor {
+    display: flex;
+    flex-basis: 25%;
+    background-color: azure;
+    flex-direction: column;
+    border-color: rgba(171, 198, 162, 1);
+    border-width: 0.5rem;
+    border-style: groove;
+    text-align: center;
+  }
+  #Nombre-Doctor {
+    font-size: 2rem;
+  }
+  .Descripcion {
+    font-size: 1.3rem;
+    padding: 1rem;
+  }
+  .imagen {
+    width: 20rem;
+    height: 20rem;
+    align-self: center;
+  }
+  footer {
+    background-color: #676767;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  margin-top: 2rem;
+    bottom: 0;
+    width: 100%;}

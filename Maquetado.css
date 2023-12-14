@@ -1,0 +1,114 @@
+body {
+  background-color: whitesmoke;
+  font-size: 10px;
+  width: 100%;
+}
+#Bienvenida {
+  color: #314e27;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 4rem;
+  text-shadow: 0.11rem 0.2rem rgb(203, 203, 203);
+}
+#Inicio-sesion {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 3rem;
+}
+#Caja-Principal {
+  border: 2rem;
+}
+#Nombre {
+  width: 53em;
+  height: 3em;
+  border-radius: 5em;
+  border-width: 0.01em;
+  padding-left: 1rem;
+}
+
+#Apellido {
+  width: 53em;
+  height: 3em;
+  border-radius: 5em;
+  border-width: 0.01em;
+  padding-left: 1rem;
+}
+
+#DNI {
+  width: 53em;
+  height: 3em;
+  border-radius: 5em;
+  border-width: 0.01em;
+  padding-left: 1rem;
+}
+
+#Correo {
+  width: 53em;
+  height: 3em;
+  border-radius: 5em;
+  border-width: 0.01em;
+  padding-left: 1rem;
+}
+
+#BloqueDeLogo {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(134, 189, 78, 1);
+  flex-basis: calc(30%-2rem);
+  height: 50em;
+  width: 22em;
+}
+
+#Logo {
+  display: block;
+  background-color: rgba(134, 189, 78, 1);
+  height: 15em;
+  width: 15em;
+  margin-top: 3rem;
+  align-self: center;
+  border-radius: 1.5rem;
+}
+#Caja-Principal {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+  height: 80vh;
+  align-items: center;
+}
+#ContainerRegistro {
+  flex-basis: calc(70%-2rem);
+}
+#Texto-Bajo-Logo {
+  margin-top: 3rem;
+  
+  display: flex;
+  flex-direction: column;
+  line-height: 1em;
+  margin-left: 3rem;
+  
+  color: #FFF;
+
+
+font-family: Newsreader;
+font-size: 2rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1rem; /* 2.5rem */
+letter-spacing: -0.025rem;
+}
+#Texto-Bajo-Logo2 {
+ 
+  display: flex;
+  flex-direction: column;
+  margin-left: 3rem;
+  margin-right: 3rem;
+
+  color: #FFF;
+
+
+font-family: Newsreader;
+font-size: 2rem;
+font-style: normal;
+font-weight: 500;
+line-height: 100%; /* 2.5rem */
+letter-spacing: -0.025rem;
+}
